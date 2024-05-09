@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <title>Landing Page</title>
 </head>
 <body>
+    <!-- Top Section with darker background -->
+
     <div class="top">
-        <div class="navigation">Header Logo
+        <div class="hero">
+            <h3>Header Logo</h3>
             <ul>
                 <li><a href="#">header link one</a></li>
                 <li><a href="#">header link two</a></li>
@@ -20,14 +25,58 @@
         <div class="hero">
             <div class="content">
                 <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+                <p>Some room for the subtext that is smaller than the header.</p>
+                <button>Click me!</button>
             </div>
-            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photo of some code on a laptop">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Hero image" width="500px">
         </div>
     </div>
-    <div class="quote"><span>Quote goes on this line</span></div>
-    <div class="cta">CALL TO ACTION!!</div>
+
+    <!-- More Information Section -->
+
+    <div class="container">
+        <h2>More information</h2>
+        <div class="container_items">
+            <div class="information">
+                <img src="https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a" alt="item 1" height="160" width="160">
+                <p>Some information about this item</p>
+            </div>
+
+            <div class="information">
+                <img src="https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a" alt="item 1" height="160" width="160">
+                <p>Some information about this item</p>
+            </div>
+
+            <div class="information">
+                <img src="https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a" alt="item 1" height="160" width="160">
+                <p>Some information about this item</p>
+            </div>
+
+            <div class="information">
+                <img src="https://images.unsplash.com/photo-1611691934391-5a8805e0bd1a" alt="item 1" height="160" width="160">
+                <p>Some information about this item</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quote area in grey -->
+
+    <div class="quote_area">
+        <em>Here's a quote that is written by a very smart person. Live and learn from this well written quote so you can better your life. Live, Laugh, Love!</em>
+        <strong>- Dr. Smart Person</strong>
+    </div>
+
+    <!-- Call To Action -->
+
+    <div class="cta">
+        <div class="content">
+            <h3>Call to action!</h3>
+            <p>Some text goes here to tell the user to click the button!</p>
+        </div>
+        <button>Click me!</button>
+    </div>
+
+    <!-- Dark footer -->
     <div class="footer">Copyright © imchretien 2024</div>
 </body>
 </html>
